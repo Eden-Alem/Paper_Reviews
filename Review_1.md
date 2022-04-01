@@ -3,7 +3,7 @@
 By Nikita Borisov, Ian Goldberg, Eric Brewer
 
 ### What is the problem?
-The mechanisms currently used for social communications (such as PGP and S/MIME) provide encryption (where keys are long-lived) and digital signatures (for the attainment of non-repudiability).
+The mechanisms currently used for social communications (such as PGP(Pretty Good Privacy) and S/MIME(public key encryption and signing of MIME data)) provide encryption (where keys are long-lived) and digital signatures (for the attainment of non-repudiability).
 
 ### Summary / Contribution
 Online social communications should have perfect forward secrecy and repudiability (Off-the-Record conversation):
