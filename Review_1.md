@@ -20,6 +20,7 @@ Online social communications should have perfect forward secrecy and repudiabili
 - Only involved correspondents know of the shared secret MAC key and thus the recieving correspondent can assume the received message was from the correspondent he/she has shared the key with prior (attains inability to proof the author of a message leading to a point where the receiver could have made up the message themselves)
 
 ### Limitations/Weaknesses 
+- It doesn't address the possibility of an adversary intercepting the messages and if the key for that partiular message on transit is then compromised the adversary can forge the Diffie-Hellman key and send it along (possibility of man-in-the-middle attack)
 
 ### Summary of Key Results (Up to 3 results)
 
